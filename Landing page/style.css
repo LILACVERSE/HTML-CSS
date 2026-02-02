@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Bungee&display=swap');
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+     font-family: "DM Serif Display", serif;
+     color: white;
+     font-weight: 400;
+     font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid black;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+     font-family: "DM Serif Display", serif;
+     font-weight: 400;
+     font-size: 64px;
+     color: wheat;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: antiquewhite;
+    width: 180px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(235, 214, 195, 053);
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid black;
+    padding-top: 40px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: "DM Serif Display", serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: antiquewhite;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid black;
+    margin-bottom: 48px;
+}
+
+.rodape-imagem{
+    height: 55px;
+    display: block;
+    margin: auto;
+}
